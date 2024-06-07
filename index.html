@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho dos arquivos</title>
+
+       <!-- Ícones Font Awesome - Biblioteca de ícones -->
+       <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     />
+     <!-- Fontes do Google - Fonte utilizada na página -->
+     <link
+       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+       rel="stylesheet"
+     />
+     
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div class="container">
+        <input type="file" id="seletor-arquivos" multiple />
+        <label for="seletor-arquivos">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            &nbsp; Escolher Arquivos para Enviar
+        </label>    
+        <div id="num-de-arquivos">Nenhum arquivo selecionado</div>
+        <ul id="lista-de-arquivos"></ul>
+        </div>
+
+        <script src="script.js"></script>
+        </body>
+</html>
